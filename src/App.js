@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React IN ONE MINUT, BUT IT IS IMPOSSIBLE
         </a>
       </header>
     </div>
