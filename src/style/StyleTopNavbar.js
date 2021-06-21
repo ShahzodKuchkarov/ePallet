@@ -1,7 +1,7 @@
 import Styled from 'styled-components'
 
 export const Main = Styled.div`
-background-color: navy;
+background-color: blue;
 
 .inner {
     width: 100%;
