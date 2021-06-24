@@ -75,6 +75,12 @@ export default class Nutritionals extends Component {
                         <td>2% <br />0%</td>
                     </tr>
                 </table>
+                <p>
+                    <span className="ingridiets">Ingridients: 
+                    </span>
+                    Brown sugar, Popcorn, Caramel corn mix(corn syrup mix, brown sugar, molasses, soy lecethin and cream of tartar),
+                    Milk Chocolate, <br /> Canola Oil, Butter, Cocnut Oil, Salt, Table.
+                </p>
             </div>
         )
     }

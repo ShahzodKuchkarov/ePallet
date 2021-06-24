@@ -57,6 +57,8 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
   background-color: #fff;
 }
-
-
+.ingridiets {
+  text-transform:uppercase;
+  font-weight:bold;
+}
 `;
