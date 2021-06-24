@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import Frozen from './components/Frozen';
 import Links from './components/Links';
 import Overview from './components/Overview';
-import Nutritionals from './components/Nutritionals';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <Route path="" component={}/> */}
       </Switch>
       <Overview />
+      <Footer/>
     </>
 
   );
