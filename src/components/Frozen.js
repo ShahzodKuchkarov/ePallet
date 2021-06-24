@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
-import Juice from '../assests/juice.png'
+import Motts from '../assests/motts.jpg';
 import { AiOutlineCloudDownload, AiOutlineInbox, FiSettings, GiThink, AiOutlineStar } from 'react-icons/all'
 import { Main } from '../style/StyleFrozen';
+import PriceCard from './PriceCard';
 
 export default class Frozen extends Component {
     render() {
         return (
             <Main>
                 <div className="img">
-                    <img src={Juice} alt="" />
+                    <img src={Motts} alt="" />
                 </div>
                 <div className="juice__info">
                     <div className="juice__info-top">
@@ -49,7 +50,7 @@ export default class Frozen extends Component {
                             <span>
                                 <FiSettings /> Custom Pallet
                             </span>
-                         
+
                         </button>
                         <span>
                             <GiThink />
@@ -60,7 +61,23 @@ export default class Frozen extends Component {
                     </div>
                 </div>
                 <div className="juice__right">
-                        
+                    <PriceCard
+                        para="1 Pallet Delivered Price"
+                        price="$5.65/Cs $565.13/Plt"
+                        oz="$0.02/oz"
+                    />
+                    <PriceCard
+                        para="3 Pallets Delivered Price"
+                        price="$5.23/Cs $523.35/Plt"
+                        oz="$0.02/oz"
+                        save="(Save up to 12%)"
+                    />
+                    <PriceCard
+                        para="5 Pallets Delivered Price"
+                        price="$4.97/Cs $497.67/Plt"
+                        oz="$0.02/oz"
+                        save="(Save up to 16%)"
+                    />
                 </div>
             </Main>
         )

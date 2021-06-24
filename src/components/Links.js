@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
-import {Main} from '../style/StyleLinks'
+import { Link, NavLink } from 'react-router-dom';
+import { Main } from '../style/StyleLinks'
 
 export default class Links extends Component {
     render() {
@@ -8,25 +8,25 @@ export default class Links extends Component {
             <Main>
                 <ul>
                     <li>
-                        <Link className="links" to="/food-service">Food Service</Link>
+                        <NavLink exact activeClassName="links-active" to="/food-service">Food Service</NavLink>
                     </li>
                     <li>
-                        <Link className="links" to="/health-beauty">Health&Beauty</Link>
+                        <NavLink exact activeClassName="links-active" to="/health-beauty">Health&Beauty</NavLink>
                     </li>
                     <li>
-                        <Link className="links" to="/industrial-ingridients">Industrial Ingridients</Link>
+                        <NavLink exact activeClassName="links-active" to="/industrial-ingridients">Industrial Ingridients</NavLink>
                     </li>
                     <li>
-                        <Link className="links" to="/beverages">Beverages</Link>
+                        <NavLink exact activeClassName="links-active" to="/beverages">Beverages</NavLink>
                     </li>
                     <li>
-                        <Link className="links" to="/pet-supplies">Pet Supplies</Link>
+                        <NavLink exact activeClassName="links-active" to="/pet-supplies">Pet Supplies</NavLink>
                     </li>
                     <li>
-                        <Link className="links" to="/frozen">Frozen</Link>
+                        <NavLink exact activeClassName="links-active" to="/frozen">Frozen</NavLink>
                     </li>
                     <li>
-                        <Link className="links" to="/cleaning-products">Cleaning Products</Link>
+                        <NavLink exact activeClassName="links-active" to="/cleaning-products">Cleaning Products</NavLink>
                     </li>
                 </ul>
 

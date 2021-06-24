@@ -5,8 +5,7 @@ display:flex;
 width: 100%;
 max-width: 1300px;
 padding: 0 15px;
-margin: 0 auto;
-margin: 0 auto;
+margin: 40px auto;
 .img img{
 width: 400px;
 }
@@ -73,5 +72,11 @@ color:#8090a5;
     display:flex;
     color:blue;
     cursor:pointer;
+}
+.juice__right {
+    padding-left:80px;
+    display:flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 `;
